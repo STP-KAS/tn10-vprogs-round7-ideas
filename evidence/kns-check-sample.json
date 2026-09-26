@@ -1,0 +1,410 @@
+{
+ "t": "2026-09-26T14:00:14.784Z",
+ "note": "POST /domains/check (address field = our own funder, omitted here); owner probe on one name",
+ "sets": {
+  "r6A": {
+   "names": [
+    "stp-r6-a15-gk861f",
+    "stp-r6-a5-ude3c8",
+    "stp-r6-a28-5p3d20",
+    "stp-r6-a35-wma8ff",
+    "stp-r6-a35-rz75dd",
+    "stp-r6-a11-os73ef",
+    "stp-r6-a21-hq15d0",
+    "stp-r6-a20-nlc8b0",
+    "stp-r6-a9-7eb61",
+    "stp-r6-a5-5yc7ab",
+    "stp-r6-a36-q53a59",
+    "stp-r6-a21-us046a",
+    "stp-r6-a19-wh0841",
+    "stp-r6-a38-c471ab",
+    "stp-r6-a2-3q16ca",
+    "stp-r6-a31-4pc1b9",
+    "stp-r6-a35-o19503",
+    "stp-r6-a30-8k9e6c",
+    "stp-r6-a11-7w3d67",
+    "stp-r6-a23-y78845"
+   ],
+   "available_true": 20,
+   "available_false": 0,
+   "raw": {
+    "success": true,
+    "data": {
+     "domains": [
+      {
+       "domain": "stp-r6-a15-gk861f.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a5-ude3c8.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a28-5p3d20.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a35-wma8ff.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a35-rz75dd.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a11-os73ef.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a21-hq15d0.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a20-nlc8b0.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a9-7eb61.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a5-5yc7ab.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a36-q53a59.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a21-us046a.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a19-wh0841.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a38-c471ab.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a2-3q16ca.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a31-4pc1b9.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a35-o19503.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a30-8k9e6c.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a11-7w3d67.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "stp-r6-a23-y78845.kas",
+       "available": true,
+       "isReservedDomain": false
+      }
+     ]
+    }
+   }
+  },
+  "r6B": {
+   "names": [
+    "t3ee9",
+    "w2b0mw",
+    "j5swdyafhpz1p56",
+    "j6q78r19",
+    "8l5nf",
+    "cw9qbtz",
+    "vpjp80us",
+    "j5ltymnzfccrx00",
+    "pknxiay",
+    "att8sgx1sxnbea0",
+    "frqn6",
+    "2trv53",
+    "1u3npy6",
+    "5zp22cr",
+    "7wfpei1",
+    "jz3xlppt",
+    "zhzvfg4ouduxpv1",
+    "5ox4ydz3",
+    "kkivl9",
+    "ldprbusl"
+   ],
+   "available_true": 20,
+   "available_false": 0,
+   "raw": {
+    "success": true,
+    "data": {
+     "domains": [
+      {
+       "domain": "t3ee9.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "w2b0mw.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "j5swdyafhpz1p56.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "j6q78r19.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "8l5nf.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "cw9qbtz.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "vpjp80us.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "j5ltymnzfccrx00.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "pknxiay.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "att8sgx1sxnbea0.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "frqn6.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "2trv53.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "1u3npy6.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "5zp22cr.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "7wfpei1.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "jz3xlppt.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "zhzvfg4ouduxpv1.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "5ox4ydz3.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "kkivl9.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "ldprbusl.kas",
+       "available": true,
+       "isReservedDomain": false
+      }
+     ]
+    }
+   }
+  },
+  "r7b": {
+   "names": [
+    "1ppf4",
+    "hynb8xci",
+    "j84m30k",
+    "0zhmw",
+    "fmdfzpoewhe6rrz",
+    "nspfz",
+    "2imvh5gv",
+    "1hf9j62",
+    "32agn7qtrezid6o",
+    "3nfy",
+    "8qcqhv0",
+    "cztdr4",
+    "nanl7zj",
+    "75e8p17y",
+    "sd05kfdp",
+    "m5lstn",
+    "2mt2j2wo",
+    "r6y8hxdt0hrw0ei",
+    "6sb2t",
+    "5gbjnd0"
+   ],
+   "available_true": 20,
+   "available_false": 0,
+   "raw": {
+    "success": true,
+    "data": {
+     "domains": [
+      {
+       "domain": "1ppf4.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "hynb8xci.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "j84m30k.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "0zhmw.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "fmdfzpoewhe6rrz.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "nspfz.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "2imvh5gv.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "1hf9j62.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "32agn7qtrezid6o.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "3nfy.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "8qcqhv0.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "cztdr4.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "nanl7zj.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "75e8p17y.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "sd05kfdp.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "m5lstn.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "2mt2j2wo.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "r6y8hxdt0hrw0ei.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "6sb2t.kas",
+       "available": true,
+       "isReservedDomain": false
+      },
+      {
+       "domain": "5gbjnd0.kas",
+       "available": true,
+       "isReservedDomain": false
+      }
+     ]
+    }
+   }
+  }
+ },
+ "owner_probe": {
+  "name": "stp-r6-a15-gk861f",
+  "status": 500,
+  "body": "{\"success\":false,\"data\":null,\"message\":\"NG is lagging behind BlockDag by more than 36000.\",\"error\":\"NG (580736120) is lagging behind BlockDag (580998852) by more than 36000.\"}"
+ }
+}

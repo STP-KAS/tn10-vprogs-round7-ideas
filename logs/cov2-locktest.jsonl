@@ -1,0 +1,56 @@
+{"t":"2026-09-26T13:53:57.027Z","ev":"fund","ok":true,"id":"3dc9f1889040434a90a696d2fc91603f1a010844e3e565c69c763108efb5c367","ttl":"100","seq":"100"}
+{"t":"2026-09-26T13:53:57.536Z","ev":"move_submit","ok":true,"id":"b9d8381522d5df31bf1f3355e1e2c990fefca03ec7061db8328bada68c0a0b20"}
+{"t":"2026-09-26T13:53:58.789Z","ev":"move_accepted","daa":"580994643"}
+{"t":"2026-09-26T13:53:58.799Z","ev":"early_timeout_submit","ok":false,"e":"RPC Server (remote error) -> Rejected transaction <h>: one of the transaction sequence locks conditions was not met","id":"455fadcbc5e93db674a27bd9f443f7f7e85f996951ac38402246dcb289366c3d","virtual_daa":"580994645","age_at_submit":"2"}
+{"t":"2026-09-26T13:53:59.299Z","ev":"result","timeout_accepted_daa":null,"move_daa":"580994643","age_at_acceptance":null,"ttl":"100","verdict":"rejected at submit"}
+{"t":"2026-09-26T13:54:11.447Z","ev":"fund","ok":true,"id":"a80ab272dffa0b661ca399e6bcd564a2412b7fbb092f07daaa39aaee47f8b1e9","ttl":"100","seq":"100"}
+{"t":"2026-09-26T13:54:11.953Z","ev":"move_submit","ok":true,"id":"3500d655cd234361ccac8b9f63ec5cf5ac9cd102b693a9cd6dc7d56891811ea8"}
+{"t":"2026-09-26T13:54:11.954Z","ev":"move_accepted","daa":null,"chained":true}
+{"t":"2026-09-26T13:54:11.958Z","ev":"early_timeout_submit","ok":true,"id":"a634636feb6fa36f1299063c55bfc7daf952bd0782b43d413c2645f7d3c03162","virtual_daa":"580994793","age_at_submit":null}
+{"t":"2026-09-26T13:56:12.035Z","ev":"early_still_in_mempool","inMp":false}
+{"t":"2026-09-26T13:56:12.035Z","ev":"result","timeout_accepted_daa":null,"move_daa":"580994800","age_at_acceptance":null,"ttl":"100","verdict":"not accepted within 120 s"}
+{"t":"2026-09-26T13:56:12.421Z","ev":"fund","ok":true,"id":"cd56f2477e530102f7c4c31ae52cc1b9fd23364a85a281fe201e55f863126c9f","ttl":"100","seq":"0"}
+{"t":"2026-09-26T13:56:13.430Z","ev":"move_submit","ok":true,"id":"0304f4c454e0012bdde31cb8fdec5ce66f269b8004028a2726a1b6728529d4fd"}
+{"t":"2026-09-26T13:56:14.182Z","ev":"move_accepted","daa":"580996215","chained":false}
+{"t":"2026-09-26T13:56:14.189Z","ev":"early_timeout_submit","ok":false,"e":"RPC Server (remote error) -> Rejected transaction <h>: failed to verify the signature script: Unsatisfied lock time: locktime requirement not satisfied -- locktime is greater than the transaction locktime: 100 > 0","id":"c5557256d1dcdd9d1829a67626bfc5a08072e8e2ae58355559a2ebb60f837f47","virtual_daa":"580996216","age_at_submit":"1"}
+{"t":"2026-09-26T13:56:14.691Z","ev":"early_still_in_mempool","inMp":false}
+{"t":"2026-09-26T13:56:14.691Z","ev":"result","timeout_accepted_daa":null,"move_daa":"580996215","age_at_acceptance":null,"ttl":"100","verdict":"rejected at submit"}
+{"t":"2026-09-26T13:58:45.232Z","ev":"fund","ok":true,"id":"26c86f8e2b74f850a07fee68d452347397038438168004eda973e5c0b9d58126","ttl":"100","seq":"100"}
+{"t":"2026-09-26T13:58:45.740Z","ev":"move_submit","ok":true,"id":"650d31d687e9082adda4f8f87cf7c0f5221d7e2eacbe7dec5aba52259ef86a2c"}
+{"t":"2026-09-26T13:58:45.740Z","ev":"move_accepted","daa":null,"chained":true}
+{"t":"2026-09-26T13:58:45.786Z","ev":"early_timeout_submit","ok":true,"id":"8dadb85141fcffee5886bf6145d4c2f3170863e36e7c885c82a8876304f16275","virtual_daa":"580997842","age_at_submit":null}
+{"t":"2026-09-26T13:58:53.797Z","ev":"early_still_in_mempool","inMp":false}
+{"t":"2026-09-26T13:58:53.797Z","ev":"result","timeout_accepted_daa":"580997947","move_daa":"580997846","age_at_acceptance":"101","ttl":"100","verdict":"OK: accepted only after ttl"}
+{"t":"2026-09-26T13:58:53.799Z","ev":"sweep","ok":true}
+{"t":"2026-09-26T13:59:02.835Z","ev":"fund","ok":true,"id":"8357316afad3099b255266fd031c5a95fd94d4a0010e08c0e809ac5488f54494","ttl":"100","seq":"100"}
+{"t":"2026-09-26T13:59:03.342Z","ev":"move_submit","ok":true,"id":"eb2090ec0cc13296e0f1bbaec48979bb3e447f4528919e9c5abf7ccf7d163891"}
+{"t":"2026-09-26T13:59:03.342Z","ev":"move_accepted","daa":null,"chained":true}
+{"t":"2026-09-26T13:59:03.347Z","ev":"early_timeout_submit","ok":true,"id":"a93ebc7acaa4b78ebc157a2315b04abd3fa83efc8e2cf9e0440a7b7c272a2181","virtual_daa":"580998050","age_at_submit":null}
+{"t":"2026-09-26T13:59:14.365Z","ev":"early_still_in_mempool","inMp":false}
+{"t":"2026-09-26T13:59:14.366Z","ev":"result","timeout_accepted_daa":"580998159","move_daa":"580998056","age_at_acceptance":"103","ttl":"100","verdict":"OK: accepted only after ttl"}
+{"t":"2026-09-26T13:59:14.369Z","ev":"sweep","ok":true}
+{"t":"2026-09-26T13:59:14.753Z","ev":"fund","ok":true,"id":"9cf56998ee5cc7afd97c0f004fa2889983728ec0af7c4ecc7fe2cd135f1a96cc","ttl":"100","seq":"100"}
+{"t":"2026-09-26T13:59:15.261Z","ev":"move_submit","ok":true,"id":"323402046368daa72866b7a732441fe69e287ddb5fb4966d5430ae2ce4d04629"}
+{"t":"2026-09-26T13:59:15.261Z","ev":"move_accepted","daa":null,"chained":true}
+{"t":"2026-09-26T13:59:15.266Z","ev":"early_timeout_submit","ok":true,"id":"0e12a2edf792c80609429dcaef16a5dc7e565b3ca7c40dbf5efe56d831e268ab","virtual_daa":"580998168","age_at_submit":null}
+{"t":"2026-09-26T13:59:25.776Z","ev":"early_still_in_mempool","inMp":false}
+{"t":"2026-09-26T13:59:25.777Z","ev":"result","timeout_accepted_daa":"580998278","move_daa":"580998175","age_at_acceptance":"103","ttl":"100","verdict":"OK: accepted only after ttl"}
+{"t":"2026-09-26T13:59:25.779Z","ev":"sweep","ok":true}
+{"t":"2026-09-26T13:59:26.175Z","ev":"fund","ok":true,"id":"f20195e8f69f638b3869eadde2f740f37bb8bbd173a86b9e630b2b1cd7cb2a1f","ttl":"100","seq":"100"}
+{"t":"2026-09-26T13:59:26.681Z","ev":"move_submit","ok":true,"id":"fd996b3498427e075c8c4184780a4bdaa5a06c6aaed199d85c9223c95d8af2d5"}
+{"t":"2026-09-26T13:59:26.681Z","ev":"move_accepted","daa":null,"chained":true}
+{"t":"2026-09-26T13:59:26.689Z","ev":"early_timeout_submit","ok":true,"id":"9e5d79e26eb787690f473ad0dcacb1794ea1d7df1835859bb6d0c960c5eb17ef","virtual_daa":"580998289","age_at_submit":null}
+{"t":"2026-09-26T14:01:26.766Z","ev":"early_still_in_mempool","inMp":false}
+{"t":"2026-09-26T14:01:26.766Z","ev":"result","timeout_accepted_daa":null,"move_daa":"580998292","age_at_acceptance":null,"ttl":"100","verdict":"not accepted within 120 s"}
+{"t":"2026-09-26T14:01:27.127Z","ev":"fund","ok":true,"id":"0c43543a321c6c99b52939448b5adb8ff1f6c610c61310010ce603b75812fe25","ttl":"100","seq":"100"}
+{"t":"2026-09-26T14:01:27.633Z","ev":"move_submit","ok":true,"id":"01abf0e1cb708b26b4d86b1c25e679db8e14f1cab56c0a41d8b0fd4b0d2fcbce"}
+{"t":"2026-09-26T14:01:28.389Z","ev":"move_accepted","daa":"580999552","chained":false}
+{"t":"2026-09-26T14:01:28.399Z","ev":"early_timeout_submit","ok":false,"e":"RPC Server (remote error) -> Rejected transaction <h>: one of the transaction sequence locks conditions was not met","id":"ede911fa87c7f60a06f628d539f7e5f7a89f14afa6ade272acb2c40560433b26","virtual_daa":"580999557","age_at_submit":"5"}
+{"t":"2026-09-26T14:01:28.901Z","ev":"early_still_in_mempool","inMp":false}
+{"t":"2026-09-26T14:01:28.901Z","ev":"result","timeout_accepted_daa":null,"move_daa":"580999552","age_at_acceptance":null,"ttl":"100","verdict":"rejected at submit"}
+{"t":"2026-09-26T14:01:29.229Z","ev":"fund","ok":true,"id":"e2b122799984ae4a5a3b144dd34ab7f04ed416e7da8b8c888e228678e5cf1394","ttl":"100","seq":"100"}
+{"t":"2026-09-26T14:01:30.256Z","ev":"move_submit","ok":true,"id":"11651d34d7397701deb6f20c3c31977bb51c1a3f873c0cc693077aacf75ca25f"}
+{"t":"2026-09-26T14:01:30.762Z","ev":"move_accepted","daa":"580999579","chained":false}
+{"t":"2026-09-26T14:01:30.766Z","ev":"early_timeout_submit","ok":false,"e":"RPC Server (remote error) -> Rejected transaction <h>: one of the transaction sequence locks conditions was not met","id":"79f4da26775e3548cbc77b3b7d4199f4d04d92888b496dc86a4e1ad6e9a9e20a","virtual_daa":"580999582","age_at_submit":"3"}
+{"t":"2026-09-26T14:01:31.268Z","ev":"early_still_in_mempool","inMp":false}
+{"t":"2026-09-26T14:01:31.269Z","ev":"result","timeout_accepted_daa":null,"move_daa":"580999579","age_at_acceptance":null,"ttl":"100","verdict":"rejected at submit"}

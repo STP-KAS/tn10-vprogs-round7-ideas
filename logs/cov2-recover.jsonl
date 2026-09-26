@@ -1,0 +1,11 @@
+{"t":"2026-09-26T13:56:47.592Z","pairs":5,"found":2,"recovered":0,"tkas":0,"fail":["RPC Server (remote error) -> Rejected transaction <h>: transaction <h> is an orphan where orphan is disallowed","RPC Server (remote error) -> Rejected transaction <h>: transaction <h> is an orphan where orphan is disallowed"]}
+{"t":"2026-09-26T13:57:00.497Z","pairs":5,"found":0,"recovered":0,"tkas":0,"fail":[]}
+{"t":"2026-09-26T13:57:43.219Z","ev":"sweepkeys","utxos":5,"ok":5,"tkas":37.23512434,"rows":[{"key":0,"daa":"580993525","tkas":9.38865441,"from":"8dcb76fe8b211280ca7fe7ad3399c3828150e42074eac13955c8ffd09e1c3fe5"},{"key":6,"daa":"580994902","tkas":4.01316248,"from":"b564952e72edc7c1ee036fd0e48adbe5be0af887f95e95ec7a03842913198c49"},{"key":4,"daa":"580996528","tkas":11.10577655,"from":"33e7a623be056e9af5df9db85c0bf7ecf120150e2b60d5ff6affb181f41f833b"},{"key":2,"daa":"580993661","tkas":9.20032226,"from":"47fb2e33ca39d571f45f83aa5f13a846cc3567ba799ed86b7499df813d6d784d"},{"key":8,"daa":"580996550","tkas":3.52720864,"from":"933e4af6d8ba6436375c01a1df9aed6a36553a8d20042439eb1cf12e96526316"}]}
+{"pair":16,"utxo":{"transactionId":"fd996b3498427e075c8c4184780a4bdaa5a06c6aaed199d85c9223c95d8af2d5","index":0},"daa":"580998292","amt":"333959064"}
+{"pair":16,"timeout":"9e5d79e26eb787690f473ad0dcacb1794ea1d7df1835859bb6d0c960c5eb17ef","sweep":"62d8485ba5b696547c08add9e23dd8537f5302d2a50609476686f151b5c857ad"}
+{"pair":18,"utxo":{"transactionId":"01abf0e1cb708b26b4d86b1c25e679db8e14f1cab56c0a41d8b0fd4b0d2fcbce","index":0},"daa":"580999552","amt":"331443664"}
+{"pair":18,"timeout":"ede911fa87c7f60a06f628d539f7e5f7a89f14afa6ade272acb2c40560433b26","sweep":"21f52ebac551fe0227eed44001657d3368d28cce258a9e586041fb4fc65eac76"}
+{"pair":20,"utxo":{"transactionId":"11651d34d7397701deb6f20c3c31977bb51c1a3f873c0cc693077aacf75ca25f","index":0},"daa":"580999579","amt":"331375864"}
+{"pair":20,"timeout":"79f4da26775e3548cbc77b3b7d4199f4d04d92888b496dc86a4e1ad6e9a9e20a","sweep":"a96d78deb2aabb1d04ec5682da278ba25c5f16fbc414a297c80e3138fdf9b004"}
+{"t":"2026-09-26T14:02:35.690Z","pairs":11,"found":3,"recovered":3,"tkas":9.967785919999999,"fail":[]}
+{"t":"2026-09-26T14:02:36.274Z","ev":"sweepkeys","utxos":0,"ok":0,"tkas":0,"rows":[]}

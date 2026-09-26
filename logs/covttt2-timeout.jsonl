@@ -1,0 +1,13 @@
+{"t":"2026-09-26T13:52:06.186Z","ev":"ILLEGAL_ACCEPTED","kind":"early"}
+{"t":"2026-09-26T13:52:06.187Z","ev":"summary","games":1,"early_rejected":0,"wrong_waiter_rejected":0,"timeout_ok":0,"ILLEGAL_ACCEPTED":1,"wait_ms":[]}
+{"t":"2026-09-26T13:52:18.974Z","ev":"EARLY_TIMEOUT_MEMPOOL_ACCEPTED","fund":"58ee3abf05fd6a493d29dbb5f0dee830ad2f4b90294cfa4debd63db97ea8a398","move":"c0273d59bcbda4150762e18cd294fefc49876a0d231b7c99d9a5619d06b3fd3b","timeout":"40cbda81261d0245f58e56daadbbc3f3c2ddfbf7fddc280d9539e624325b311c","submit_ms":1790430738974}
+{"t":"2026-09-26T13:52:22.229Z","ev":"poll","a":0,"move":{"daa":null,"bt":null},"timeout":{"daa":null,"bt":null}}
+{"t":"2026-09-26T13:52:38.105Z","ev":"poll","a":5,"move":{"daa":null,"bt":null},"timeout":{"daa":null,"bt":null}}
+{"t":"2026-09-26T13:52:53.996Z","ev":"poll","a":10,"move":{"daa":null,"bt":null},"timeout":{"daa":null,"bt":null}}
+{"t":"2026-09-26T13:53:09.853Z","ev":"poll","a":15,"move":{"daa":null,"bt":null},"timeout":{"daa":null,"bt":null}}
+{"t":"2026-09-26T13:53:26.541Z","ev":"poll","a":20,"move":{"daa":null,"bt":null},"timeout":{"daa":null,"bt":null}}
+{"t":"2026-09-26T13:53:42.385Z","ev":"poll","a":25,"move":{"daa":null,"bt":null},"timeout":{"daa":null,"bt":null}}
+{"t":"2026-09-26T13:53:58.233Z","ev":"poll","a":30,"move":{"daa":null,"bt":null},"timeout":{"daa":null,"bt":null}}
+{"t":"2026-09-26T13:54:14.082Z","ev":"poll","a":35,"move":{"daa":null,"bt":null},"timeout":{"daa":null,"bt":null}}
+{"t":"2026-09-26T13:54:26.777Z","ev":"sweep","ok":false,"e":"RPC Server (remote error) -> Rejected transaction <h>: transaction <h> is an orphan where orphan is disallowed"}
+{"t":"2026-09-26T13:54:26.777Z","ev":"summary","games":1,"early_rejected":0,"wrong_waiter_rejected":0,"timeout_ok":0,"ILLEGAL_ACCEPTED":0,"wait_ms":[],"early_mempool_accepted":1}

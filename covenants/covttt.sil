@@ -1,0 +1,76 @@
+pragma silverscript ^0.1.0;
+
+// CovTTT: L1-enforced tic-tac-toe covenant (TN10 prototype, round 7). NOT audited.
+// State lives in the covenant's own redeem script; every move must recreate the covenant (output 0) with the
+// exact next state (validateOutputState) and must carry the pot forward minus at most maxFee (amount is NOT
+// locked by validateOutputState, so it is required explicitly). No foreign readInputState.
+contract CovTTT(byte[32] initX, byte[32] initO, int initMaxFee) {
+    byte[32] px = initX;
+    byte[32] po = initO;
+    int turn = 0;
+    int c0 = 0; int c1 = 0; int c2 = 0;
+    int c3 = 0; int c4 = 0; int c5 = 0;
+    int c6 = 0; int c7 = 0; int c8 = 0;
+    int maxFee = initMaxFee;
+
+    function cellv(int i) : (int) {
+        int v = i == 0 ? c0 : i == 1 ? c1 : i == 2 ? c2 : i == 3 ? c3 : i == 4 ? c4 : i == 5 ? c5 : i == 6 ? c6 : i == 7 ? c7 : c8;
+        return (v);
+    }
+
+    function wins(int m) : (bool) {
+        bool w = (c0 == m && c1 == m && c2 == m) || (c3 == m && c4 == m && c5 == m) || (c6 == m && c7 == m && c8 == m)
+              || (c0 == m && c3 == m && c6 == m) || (c1 == m && c4 == m && c7 == m) || (c2 == m && c5 == m && c8 == m)
+              || (c0 == m && c4 == m && c8 == m) || (c2 == m && c4 == m && c6 == m);
+        return (w);
+    }
+
+    entry move(sig s, int cell) {
+        require(cell >= 0 && cell <= 8);
+        (int cur) = cellv(cell);
+        require(cur == 0);
+        (bool wx) = wins(1);
+        (bool wo) = wins(2);
+        require(!wx && !wo);
+        byte[32] who = turn == 0 ? px : po;
+        require(checkSig(s, pubkey(who)));
+        int mark = turn + 1;
+        int inV = tx.inputs[this.activeInputIndex].value;
+        require(tx.outputs[0].value >= inV - maxFee);
+        validateOutputState(0, State {
+            px: px, po: po, turn: 1 - turn,
+            c0: cell == 0 ? mark : c0, c1: cell == 1 ? mark : c1, c2: cell == 2 ? mark : c2,
+            c3: cell == 3 ? mark : c3, c4: cell == 4 ? mark : c4, c5: cell == 5 ? mark : c5,
+            c6: cell == 6 ? mark : c6, c7: cell == 7 ? mark : c7, c8: cell == 8 ? mark : c8,
+            maxFee: maxFee
+        });
+    }
+
+    entry claim(sig s, int m) {
+        require(m == 1 || m == 2);
+        (bool w) = wins(m);
+        require(w);
+        byte[32] who = m == 1 ? px : po;
+        require(checkSig(s, pubkey(who)));
+        int inV = tx.inputs[this.activeInputIndex].value;
+        byte[36] dest = new ScriptPubKeyP2PK(pubkey(who));
+        require(tx.outputs[0].scriptPubKey == byte[](dest));
+        require(tx.outputs[0].value >= inV - maxFee);
+    }
+
+    entry draw(sig s) {
+        require(c0 != 0 && c1 != 0 && c2 != 0 && c3 != 0 && c4 != 0 && c5 != 0 && c6 != 0 && c7 != 0 && c8 != 0);
+        (bool wx) = wins(1);
+        (bool wo) = wins(2);
+        require(!wx && !wo);
+        require(checkSig(s, pubkey(px)) || checkSig(s, pubkey(po)));
+        int inV = tx.inputs[this.activeInputIndex].value;
+        int half = (inV - maxFee) / 2;
+        byte[36] dx = new ScriptPubKeyP2PK(pubkey(px));
+        byte[36] dO = new ScriptPubKeyP2PK(pubkey(po));
+        require(tx.outputs[0].scriptPubKey == byte[](dx));
+        require(tx.outputs[1].scriptPubKey == byte[](dO));
+        require(tx.outputs[0].value >= half);
+        require(tx.outputs[1].value >= half);
+    }
+}

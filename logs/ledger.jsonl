@@ -1,0 +1,17 @@
+{"ev":"start","t":"2026-09-26T13:46:27.723Z","minutes":20}
+{"ev":"min","t":"2026-09-26T13:47:27.725Z","A_selected_chain_accepted":15884,"B_body_txs":21490,"C_ours_accepted":12367,"blocks":673,"chain_blocks":425}
+{"ev":"min","t":"2026-09-26T13:48:27.727Z","A_selected_chain_accepted":16307,"B_body_txs":24032,"C_ours_accepted":12329,"blocks":668,"chain_blocks":422}
+{"ev":"min","t":"2026-09-26T13:49:27.732Z","A_selected_chain_accepted":16515,"B_body_txs":22915,"C_ours_accepted":12133,"blocks":639,"chain_blocks":445}
+{"ev":"min","t":"2026-09-26T13:50:27.732Z","A_selected_chain_accepted":16014,"B_body_txs":21733,"C_ours_accepted":12493,"blocks":646,"chain_blocks":451}
+{"ev":"min","t":"2026-09-26T13:51:27.733Z","A_selected_chain_accepted":16342,"B_body_txs":20893,"C_ours_accepted":12236,"blocks":686,"chain_blocks":452}
+{"ev":"min","t":"2026-09-26T13:52:27.734Z","A_selected_chain_accepted":15912,"B_body_txs":20777,"C_ours_accepted":12375,"blocks":667,"chain_blocks":429}
+{"ev":"min","t":"2026-09-26T13:53:27.736Z","A_selected_chain_accepted":16160,"B_body_txs":21930,"C_ours_accepted":12229,"blocks":655,"chain_blocks":435}
+{"ev":"min","t":"2026-09-26T13:54:27.737Z","A_selected_chain_accepted":15853,"B_body_txs":21065,"C_ours_accepted":12254,"blocks":631,"chain_blocks":429}
+{"ev":"min","t":"2026-09-26T13:55:27.739Z","A_selected_chain_accepted":15919,"B_body_txs":21860,"C_ours_accepted":12311,"blocks":712,"chain_blocks":453}
+{"ev":"min","t":"2026-09-26T13:56:27.741Z","A_selected_chain_accepted":15848,"B_body_txs":22370,"C_ours_accepted":12165,"blocks":694,"chain_blocks":423}
+{"ev":"min","t":"2026-09-26T13:57:27.742Z","A_selected_chain_accepted":16019,"B_body_txs":21737,"C_ours_accepted":12496,"blocks":656,"chain_blocks":429}
+{"ev":"min","t":"2026-09-26T13:58:27.743Z","A_selected_chain_accepted":15975,"B_body_txs":20628,"C_ours_accepted":12276,"blocks":645,"chain_blocks":437}
+{"ev":"min","t":"2026-09-26T13:59:27.744Z","A_selected_chain_accepted":16078,"B_body_txs":20573,"C_ours_accepted":12304,"blocks":645,"chain_blocks":466}
+{"ev":"min","t":"2026-09-26T14:00:27.746Z","A_selected_chain_accepted":15863,"B_body_txs":20586,"C_ours_accepted":12285,"blocks":645,"chain_blocks":442}
+{"ev":"min","t":"2026-09-26T14:01:27.748Z","A_selected_chain_accepted":16064,"B_body_txs":21558,"C_ours_accepted":12307,"blocks":597,"chain_blocks":398}
+{"ev":"min","t":"2026-09-26T14:02:27.750Z","A_selected_chain_accepted":15787,"B_body_txs":20207,"C_ours_accepted":12164,"blocks":633,"chain_blocks":436}
