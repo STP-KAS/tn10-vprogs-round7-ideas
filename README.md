@@ -1,4 +1,4 @@
-> **Experimental only. Testnet-10 only. Not a product, not advice, not Kaspa core, not an audit.**
+> **Experimental only. Testnet-10 only. Not a product, not advice, not Kaspa core, not an audit.** [DISCLAIMER.md](DISCLAIMER.md)
 
 # TN10 vprogs round 7: new ideas, covenant prototypes, and the measurements the reviews asked for
 
@@ -7,6 +7,8 @@
 - Synthesis / front door: [tn10-vprogs-stress-findings](https://github.com/STP-KAS/tn10-vprogs-stress-findings)
 - Rounds: [1](https://github.com/STP-KAS/grok-bot-vprogs-round1-public) · [2](https://github.com/STP-KAS/grok-bot-vprogs-round2) · [3](https://github.com/STP-KAS/grok-bot-vprogs-round3) · [4](https://github.com/STP-KAS/grok-bot-vprogs-round4) · [5](https://github.com/STP-KAS/grok-bot-vprogs-round5) · [6](https://github.com/STP-KAS/grok-bot-vprogs-round6)
 - Outside reading of those rounds: [tn10-vprogs-build-opinion](https://github.com/STP-KAS/tn10-vprogs-build-opinion). Our point-by-point reply is [tn10-vprogs-grokbot-opinion](https://github.com/STP-KAS/tn10-vprogs-grokbot-opinion).
+
+> **Update (after round 7):** ideas 1–4, 6 and 7 below were built and measured in round 8: [tn10-vprogs-round8-covenants](https://github.com/STP-KAS/tn10-vprogs-round8-covenants) (idea 5, KNS-gated rooms, stayed spec-only). None of the round-7 runners is still running (see [STATUS.md](STATUS.md)). CovTTT C1 ended at **999 games, 3,208 / 3,208 illegal probes rejected, 0 accepted** (last counter 16:23:57 CEST). The tables below are the 16:06 snapshot.
 
 No wallet keys, seeds or mnemonics are in this repository. Wallet addresses in logs are replaced by `<addr>`. Transaction ids are left in so that anyone can look them up.
 
@@ -25,7 +27,7 @@ No wallet keys, seeds or mnemonics are in this repository. Wallet addresses in l
 
 ## Measurements (all TN10, our node n0, rusty-kaspa v2.1.0, no utxoindex)
 
-### CovTTT on L1 (runner C1, 13:44 → still running)
+### CovTTT on L1 (runner C1, from 15:44 CEST; snapshot at 16:06)
 
 | Metric | Value at 16:06 CEST |
 |---|---|

@@ -1,4 +1,6 @@
-# Live status (26 Sep 2026, ~16:15 CEST)
+# Status snapshot (26 Sep 2026, ~16:15 CEST)
+
+> **Historical snapshot, not live.** ttt T7, vprog V7 and CovTTT C1 were stopped during round 8; KNS R7c was paused in round 8 and is no longer running (checked 26 Sep, ~18:55 CEST). See [round 8](https://github.com/STP-KAS/tn10-vprogs-round8-covenants), "Other".
 
 | Process | What | Notes |
 |---|---|---|
